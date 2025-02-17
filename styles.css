@@ -46,12 +46,23 @@ section {
     gap: 20px;
 }
 
+/* Стили для картинки */
 .about-img {
-    width: 150px;  /* Устанавливаем ширину картинки */
-    height: 150px; /* Устанавливаем высоту картинки */
-   # border-radius: 50%; /* Закругляем края, чтобы картинка была круглой */
-    object-fit: cover; /* Обеспечиваем, чтобы картинка хорошо вмещалась в блок */
+    display: block;
+    margin: 0 auto; /* Центрируем картинку */
+    width: 200px; /* Размер картинки */
+    height: 200px;
+    object-fit: cover; /* Чтобы картинка не искажалась */
 }
+
+/* Стили для текста */
+#about {
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+    text-align: justify; /* Текст выравнивается по ширине */
+}
+
 
 footer {
     background-color: #333;
