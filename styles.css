@@ -34,6 +34,12 @@ section {
     margin: 20px 0;
 }
 
+#about {
+    max-width: 800px; /* Ограничим ширину текста */
+    margin: 0 auto; /* Центрируем секцию */
+    line-height: 1.6; /* Сделаем межстрочный интервал удобным */
+}
+
 footer {
     background-color: #333;
     color: white;
